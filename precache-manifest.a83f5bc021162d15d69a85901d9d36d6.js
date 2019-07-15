@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "23d0df6ded4024367b3d7f4255a6775a",
+    "revision": "20499c4607c81a249415d538698957e0",
     "url": "/unicorn-challenge/index.html"
   },
   {
-    "revision": "62991382f538901ba1a2",
+    "revision": "d1ac9994c2486525bc84",
     "url": "/unicorn-challenge/static/css/main.b918c34c.chunk.css"
   },
   {
@@ -12,8 +12,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/unicorn-challenge/static/js/2.c0b54ba3.chunk.js"
   },
   {
-    "revision": "62991382f538901ba1a2",
-    "url": "/unicorn-challenge/static/js/main.fe16b7ff.chunk.js"
+    "revision": "d1ac9994c2486525bc84",
+    "url": "/unicorn-challenge/static/js/main.56bc9ee0.chunk.js"
   },
   {
     "revision": "729a39fe7d1735d4bbd8",

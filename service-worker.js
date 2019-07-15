@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/unicorn-challenge/precache-manifest.8d902005c9ae531d98ca3726e8ae7fbc.js"
+  "/unicorn-challenge/precache-manifest.a83f5bc021162d15d69a85901d9d36d6.js"
 );
 
 self.addEventListener('message', (event) => {
