@@ -1,0 +1,12 @@
+{
+    "editor.tabSize": 2,
+    "spellright.language": [],
+    "spellright.documentTypes": [
+        "markdown",
+        "latex",
+        "plaintext"
+    ],
+    "cSpell.enabled": true,
+    "eslint.enable": true,
+    "prettier.eslintIntegration": true
+}

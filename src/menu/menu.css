@@ -1,0 +1,34 @@
+.menu {
+  position: absolute;
+  height: 40vh;
+  width: 100vw;
+  background: #fcfcfc;
+  z-index: 98;
+  display: grid;
+  flex-wrap: wrap;
+  grid-template-columns: 100%;
+  grid-template-rows: 1fr 0.3fr;
+  justify-content: center;
+  justify-items: center;
+  box-shadow: 0px 4px 8px rgba(157, 168, 190, 0.5);
+}
+
+.menu-navigation {
+  height: auto;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: space-evenly;
+  justify-content: center;
+}
+.menu-navigation-link {
+  text-align: center;
+  width: 100%;
+}
+
+.menu-contact {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}

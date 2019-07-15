@@ -1,0 +1,46 @@
+.ImageCard-wrapper {
+  width: 300px;
+  height: 250px;
+  overflow: hidden;
+
+  display: flex;
+
+  justify-content: center;
+  align-items: center;
+}
+
+.ImageCard-img {
+  height: 250px;
+}
+
+.ImageCard-cover {
+  width: 300px;
+  height: 250px;
+  position: absolute;
+
+  background: rgba(233, 32, 65, 0.8);
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 2;
+}
+
+.ImageCard-title {
+  font-family: Dosis, sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 32px;
+  line-height: 30px;
+  /* identical to box height */
+
+  color: #fcfcfc;
+
+  margin: 0;
+}
+
+@media only screen and (max-width: 735px) {
+  .ImageCard-wrapper {
+    margin: 20px;
+  }
+}

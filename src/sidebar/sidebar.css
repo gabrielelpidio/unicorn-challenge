@@ -1,0 +1,33 @@
+.sidebar {
+  display: flex;
+
+  z-index: 2;
+  justify-content: space-between;
+  flex-direction: column;
+  align-items: center;
+
+  width: 120px;
+  height: 100vh;
+
+  box-shadow: 2px 0px 4px rgba(157, 168, 190, 0.5);
+}
+
+.contact-link {
+  width: 28px;
+  height: 28px;
+}
+
+.logo {
+  height: 64px;
+  width: 64px;
+}
+
+.contact {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-bottom: 72px;
+
+  height: 240px;
+  width: 28px;
+}

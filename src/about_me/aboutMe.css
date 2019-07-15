@@ -1,0 +1,25 @@
+.AboutMe {
+  width: 476px;
+  height: 253px;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: space-between;
+}
+.AboutMe-title {
+  font-family: Dosis;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 48px;
+  line-height: 61px;
+
+  color: #1a1a4c;
+  margin: 0;
+}
+
+@media only screen and (max-width: 478px) {
+  .AboutMe {
+    width: calc(100% - 40px);
+    height: auto;
+    margin: 0 20px;
+  }
+}

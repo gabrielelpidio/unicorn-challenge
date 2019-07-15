@@ -1,33 +1,164 @@
 .App {
-  text-align: center;
+  width: 100vw;
+  display: grid;
+  grid-template-columns: 120px 1fr;
+  overflow: hidden;
+}
+.App-main {
+  overflow: auto;
+  height: 100vh;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
-  pointer-events: none;
+.App-main-grid {
+  display: grid;
+  grid-template-columns:
+    [main-start] 120px
+    [first-column] 476px
+    [spacer] 1fr
+    [second-column] 180px
+    [main-end] 195px;
+
+  grid-template-rows:
+    [main-start] 80px
+    [first-row] 196px
+    [second-row] 140px
+    [third-row] 253px
+    [spacer] 93px
+    [fourth-row] 339px
+    [main-end] 195px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.strongs {
+  width: 476px;
+  height: 216px;
+  grid-column: first-column / span 1;
+  grid-row: first-row / span 2;
+
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  grid-template-columns: 1fr;
+  grid-row-gap: 24px;
+}
+
+.rocket {
+  width: 180px;
+  height: 180px;
+
+  grid-row: second-row / span 2;
+  grid-column: second-column / span 1;
+}
+
+.portfolio {
+  height: 339px;
+  width: 676px;
+  grid-row: fourth-row / span 1;
+  grid-column: first-column / span 3;
+}
+
+.portfolio-images {
   display: flex;
-  flex-direction: column;
+
+  justify-content: space-between;
+  width: 100%;
+}
+
+.portfolio-title {
+  font-family: Dosis, sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 48px;
+  line-height: 61px;
+  /* identical to box height */
+
+  text-align: center;
+
+  color: #1a1a4c;
+}
+
+.footer {
+  font-family: Dosis, sans-serif;
+  font-weight: bold;
+  color: #fcfcfc;
+  max-width: 100vw;
+  height: 32px;
+  display: flex;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  padding-left: 50px;
+
+  background: #e92042;
 }
 
-.App-link {
-  color: #61dafb;
+.footer-link {
+  color: #fcfcfc;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+@media only screen and (max-width: 1080px) {
+  .App-main-grid {
+    grid-template-columns:
+      [main-start] 20px
+      [first-column] 476px
+      [spacer] 1fr
+      [second-column] 180px
+      [main-end] 195px;
   }
-  to {
-    transform: rotate(360deg);
+}
+
+@media only screen and (max-width: 850px) {
+  .App {
+    grid-template-columns: 1fr;
+  }
+  .App-main-grid {
+    grid-template-rows:
+      [main-start] 80px
+      [first-row] 196px
+      [second-row] 140px
+      [third-row] 253px
+      [spacer] 20px
+      [fourth-row] 339px
+      [main-end] 195px;
+  }
+}
+
+@media only screen and (max-width: 735px) {
+  .App {
+    display: flex;
+  }
+  .App-main-grid {
+    display: flex;
+    justify-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-block-start: 100px;
+  }
+  .rocket {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
+    margin: 20px 0;
+  }
+
+  .portfolio {
+    height: 100%;
+    margin-block-end: 40px;
+  }
+  .portfolio-images {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
+
+@media only screen and (max-width: 478px) {
+  .strongs {
+    margin: 0 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .footer {
+    height: auto;
+  }
+  .portfolio {
+    width: 100%;
   }
 }
