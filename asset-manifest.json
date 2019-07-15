@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/unicorn-challenge/static/css/main.b918c34c.chunk.css",
+    "main.js": "/unicorn-challenge/static/js/main.fe16b7ff.chunk.js",
+    "main.js.map": "/unicorn-challenge/static/js/main.fe16b7ff.chunk.js.map",
+    "runtime~main.js": "/unicorn-challenge/static/js/runtime~main.03336328.js",
+    "runtime~main.js.map": "/unicorn-challenge/static/js/runtime~main.03336328.js.map",
+    "static/js/2.c0b54ba3.chunk.js": "/unicorn-challenge/static/js/2.c0b54ba3.chunk.js",
+    "static/js/2.c0b54ba3.chunk.js.map": "/unicorn-challenge/static/js/2.c0b54ba3.chunk.js.map",
+    "index.html": "/unicorn-challenge/index.html",
+    "precache-manifest.8d902005c9ae531d98ca3726e8ae7fbc.js": "/unicorn-challenge/precache-manifest.8d902005c9ae531d98ca3726e8ae7fbc.js",
+    "service-worker.js": "/unicorn-challenge/service-worker.js",
+    "static/css/main.b918c34c.chunk.css.map": "/unicorn-challenge/static/css/main.b918c34c.chunk.css.map",
+    "static/media/grinch.png": "/unicorn-challenge/static/media/grinch.bb87a23f.png",
+    "static/media/menu.svg": "/unicorn-challenge/static/media/menu.fd373597.svg",
+    "static/media/platziVideo.png": "/unicorn-challenge/static/media/platziVideo.a9e05bb6.png"
+  }
+}
