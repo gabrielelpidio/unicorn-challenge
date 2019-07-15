@@ -10,7 +10,7 @@ import './menu.css';
 
 const Menu = ({ visible }) => {
   const show = useSpring({
-    transform: `translate3d(0, ${visible ? 0 : -300}px, 0)`,
+    transform: `translate3d(0, ${visible ? 0 : -42}vh, 0)`,
     config: config.stiff,
   });
   return (
